@@ -111,7 +111,7 @@ if isSelectedByName:
     )
 
 elif isSelectedByGenre:
-    genres_list = pickle.load(open('genres.pkl','rb'))
+    genres_list = joblib.load('genres.pkl')
     selected_genre = st.selectbox(
         'Type or select a genre from the dropdown',
         genres_list)
