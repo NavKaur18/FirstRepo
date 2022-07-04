@@ -92,7 +92,7 @@ st.write('You selected:', option)
 isSelectedByName = option == options_list[1]
 isSelectedByGenre = option == options_list[2]
 
-movies = pickle.load(open('movie_list.pkl','rb'))
+movies = joblib.load('movie_list.pkl')
 
 # import zipfile
 
