@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run --server.port 0.0.0.0 app.py
+web: sh setup.sh && streamlit run app.py --server.port 8080
