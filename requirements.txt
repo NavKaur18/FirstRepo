@@ -22,7 +22,7 @@ numpy==1.21.6
 packaging==21.3
 pandas==1.3.5
 parso==0.8.3
-pickle
+pickle5
 pickleshare==0.7.5
 Pillow==9.1.1
 prompt-toolkit==3.0.29
