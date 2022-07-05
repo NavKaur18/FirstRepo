@@ -92,7 +92,7 @@ st.write('You selected:', option)
 isSelectedByName = option == options_list[1]
 isSelectedByGenre = option == options_list[2]
 
-movies = joblib.load('movie_list.pkl')
+movies = pickle.load(open('movie_list.pkl','rb'))
 
 # import zipfile
 
@@ -111,7 +111,7 @@ if isSelectedByName:
     )
 
 elif isSelectedByGenre:
-    genres_list = joblib.load('genres.pkl')
+    genres_list = pickle.load(open('genres.pkl','rb'))
     selected_genre = st.selectbox(
         'Type or select a genre from the dropdown',
         genres_list)
