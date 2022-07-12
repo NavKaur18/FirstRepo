@@ -1,4 +1,4 @@
-#Content-Based-Movie-Recommender-System
+**#Content-Based-Movie-Recommender-System**
 
 Content Based Recommender System recommends movies similar to the movie given by the user for that movie and also recommend movies based on genre.
 
