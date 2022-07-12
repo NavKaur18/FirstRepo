@@ -2,6 +2,7 @@
 # Content-Based-Movie-Recommender-System
 
 ![Python](https://img.shields.io/badge/Python-3.7-blueviolet)
+![Frontend](https://img.shields.io/badge/Frontend-Streamlit-green)
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
 
