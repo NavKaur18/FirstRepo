@@ -1,10 +1,10 @@
-**#Content-Based-Movie-Recommender-System**
+**####Content-Based-Movie-Recommender-System**
 
 Content Based Recommender System recommends movies similar to the movie given by the user for that movie and also recommend movies based on genre.
 
 Check out the live demo: https://navkaur18-firstrepo-app-sv6vkg.streamlitapp.com/
 
-**How to get the API key?**
+**###How to get the API key?**
 
 Create an account in https://www.themoviedb.org/, click on the API link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your API sidebar once your request is approved.
 
